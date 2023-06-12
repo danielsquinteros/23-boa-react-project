@@ -1,6 +1,11 @@
+import Menu from "./Menu"
+
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <>
+        <Menu />
+        <h1>Home</h1>
+    </>
   )
 }
 

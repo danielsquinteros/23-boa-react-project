@@ -1,6 +1,11 @@
+import Menu from "./Menu"
+
 const Usuarios = () => {
   return (
-    <h1>Usuarios</h1>
+    <>
+        <Menu />
+        <h1>Usuarios</h1>
+    </>
   )
 }
 
