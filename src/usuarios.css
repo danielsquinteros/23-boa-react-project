@@ -1,0 +1,12 @@
+.wrapper-card{
+    width: 100%;
+}
+@media screen and (max-width: 520px){
+    .wrapper-card{
+        width: 100%;
+    }
+}
+.wrapper-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
