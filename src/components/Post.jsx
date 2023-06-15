@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Menu from "./Menu";
 import { useParams } from "react-router-dom";
+import '../post.css'
 
 const Post = () => {
     // Paso 1 -> definir el estado y un estado inicial
