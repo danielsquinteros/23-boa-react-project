@@ -4,11 +4,14 @@ import ReactDOM from 'react-dom/client'
 
 // Configuración enrutador
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import About from './components/About'
 import Home from './components/Home'
 import Usuario from './components/Usuario'
 import Usuarios from './components/Usuarios'
 import Error from './components/Error'
+import Posts from './components/Posts'
+import Post from './components/Post'
 // createBrowserRouter -> configura las rutas (la hacemos nosotros)
 // recibe un arreglo de objetos y cada objeto es una configuración de una ruta
 // RouterProvider -> traspasa la configuración a todo el proyecto  de React
@@ -30,6 +33,15 @@ const myConfigureRoute = createBrowserRouter([
   {
     path: '/user',
     element: <Usuario />
+  },
+  {
+    path: '/posts',
+    element: <Posts />
+  },
+  {
+    //:id -> es una variable dinamica
+    path: '/post/:id',
+    element: <Post />
   },
 ])
 
